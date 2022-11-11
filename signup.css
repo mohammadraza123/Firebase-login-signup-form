@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+.container {
+    margin: 30px;
+}
+
+.login {
+    background-color: black;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    padding: 50px;
+    width: 30%;
+    height: 650px;
+    margin: auto;
+    color: rgb(218, 211, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius: 10px 10px;
+}
+a{
+    color: rgb(212, 90, 46);
+}
+input {
+
+    padding: 10px;
+    margin: 20px;
+    width: 350px;
+    font-size: 15px;
+    color: gray;
+    border: none;
+    outline: 1px solid green;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    border-color: darkgreen;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.form {
+    margin: 25px;
+    margin-left: 25px;
+    width: 400px;
+
+}
+
+button {
+    width: 50%;
+    padding: 12px;
+    background-color: rgb(27, 116, 228);
+
+    color: white;
+    font-size: 16px;
+    margin-left: 100px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+button:active {
+    background-color: rgb(15, 110, 220);
+
+}
+
+p {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.fa-circle-o-notch {
+    margin-left: 155px;
+    margin-top: 230px;
+}
+
+.last {
+    margin: 40px;
+
+}
+
+
+
+
+@media only screen and (max-width : 786px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .login {
+        width: 75%;
+    }
+
+    .container {
+        width: 90%;
+        margin-left: 10px;
+
+    }
+
+    .form {
+
+        width: 280px;
+
+        margin-left: 10px;
+    }
+
+    h1,
+    p {
+        width: 100%;
+        text-align: center;
+    }
+
+    button {
+        width: 70%;
+        margin-left: 17px;
+    }
+
+    input {
+        margin-left: -34px;
+        width: 100%;
+    }
+
+    label {
+        margin-left: -25px;
+    }
+
+    .fa {
+        font-size: 60px !important;
+        margin-left: 90px;
+    }
+
+    .last {
+        margin-left: -20px;
+
+    }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }}

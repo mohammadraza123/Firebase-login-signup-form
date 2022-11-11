@@ -1,0 +1,25 @@
+.data {
+    background-color: black;
+    color: wheat;
+    width: 400px;
+    padding: 50px;
+    font-size: 22px;
+    margin: 50px;
+    margin: auto;
+    margin-top: 10px;
+    height: 300px;
+    border-radius: 15px;
+
+}
+
+.header {
+    height: 70px;
+    display: flex;
+    background-color: rgb(148, 28, 28);
+    margin: auto;
+    width: 50%;
+    margin-top: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
