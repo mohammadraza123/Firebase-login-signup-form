@@ -13,13 +13,7 @@ import {
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBqI6fpoGc5iJ6eU6XK1nWC1hT189Tf_fU",
-  authDomain: "fir-registration-form-ef82f.firebaseapp.com",
-  projectId: "fir-registration-form-ef82f",
-  storageBucket: "fir-registration-form-ef82f.appspot.com",
-  messagingSenderId: "517307223995",
-  appId: "1:517307223995:web:4b8508d4ad3ee23b833e9e",
-  measurementId: "G-RCLLZPLS7Q"
+  
 };
 
 const app = initializeApp(firebaseConfig);
